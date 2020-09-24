@@ -1,5 +1,6 @@
 <template>
   <main class="main">
+    <img :src="thumbnail && thumbnail.url">
     <h1 class="title">{{ title }}</h1>
     <p class="publishedAt">{{ publishedAt }}</p>
     <p class="category">{{ category && category.name }}</p>
